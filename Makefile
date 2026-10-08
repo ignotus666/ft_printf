@@ -6,13 +6,13 @@
 #    By: dahanlon <dahanlon@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/02 10:27:19 by dahanlon          #+#    #+#              #
-#    Updated: 2026/10/02 15:40:41 by dahanlon         ###   ########.fr        #
+#    Updated: 2026/10/06 15:43:05 by dahanlon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
-FILES = 
+FILES = ft_printf.c ft_printf_utils.c
 
 OBJ = ${FILES:.c=.o}
 
